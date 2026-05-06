@@ -1,0 +1,84 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-profile{
+    width:  396px;
+    height: 628px;
+    background-color:  hsl(0, 0%, 12%);
+    font-family: Manrope;
+}
+img{
+    width: 108px;
+    height: 111px;
+    border-radius: 50%;
+}
+.profile-image{
+    width: 396px;
+    height: 148px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.name{
+    width: 396px;
+    height: 46px;   
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 18.1px;
+    font-weight:800;
+    color: hsl(0, 0%, 100%);
+}
+.location{
+    width: 396px;
+    height: 36px;   
+    font-size: 10.3px;
+    font-weight: 800;
+    color: hsl(75, 94%, 57%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.job-title{
+    width: 396px;
+    height: 47px; 
+    font-size: 11px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: hsl(0, 0%, 100%);;
+}
+.section{
+    width: 396px;
+    height: 351px; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.link-buttons{
+    position: absolute;
+    width: 303px;
+    height: 321px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    row-gap: 10px;
+}
+button{
+    width: 303px;
+    height: 43px;
+    font-weight: 800;
+    font-size: 10.3px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    border-style: none;
+  
+}
+.name-location-text{
+    display: block;
+    width: 150px;
+}
